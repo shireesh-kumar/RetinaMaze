@@ -1,0 +1,6 @@
+[ WARN:0@2.062] global loadsave.cpp:848 imwrite_ Unsupported depth image for selected encoder is fallbacked to CV_8U.
+Testing Started
+Device used : cuda
+Model Loaded Successfully 
+Jaccard: 0.7354 - F1: 0.8427 - Recall: 0.8359 - Precision: 0.8555 - Acc: 0.9798
+Testing Completed

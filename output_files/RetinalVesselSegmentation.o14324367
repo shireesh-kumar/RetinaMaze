@@ -1,0 +1,129 @@
+wandb: Currently logged in as: shireesh98 (shireesh98-university-of-houston) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.
+wandb: Tracking run with wandb version 0.19.6
+wandb: Run data is saved locally in ./wandb/run-20250215_132205-lfrqqs9y
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run mesmerizing-rose-6
+wandb: ⭐️ View project at https://wandb.ai/shireesh98-university-of-houston/retinal_vessel_segmentation
+wandb: 🚀 View run at https://wandb.ai/shireesh98-university-of-houston/retinal_vessel_segmentation/runs/lfrqqs9y
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+   | Name    | Type          | Params | Mode 
+---------------------------------------------------
+0  | e1      | encoder_block | 39.0 K | train
+1  | e2      | encoder_block | 221 K  | train
+2  | e3      | encoder_block | 886 K  | train
+3  | e4      | encoder_block | 3.5 M  | train
+4  | b       | conv_block    | 14.2 M | train
+5  | d1      | decoder_block | 9.2 M  | train
+6  | d2      | decoder_block | 2.3 M  | train
+7  | d3      | decoder_block | 574 K  | train
+8  | d4      | decoder_block | 143 K  | train
+9  | outputs | Conv2d        | 65     | train
+10 | loss_fn | DiceBCELoss   | 0      | train
+---------------------------------------------------
+31.0 M    Trainable params
+0         Non-trainable params
+31.0 M    Total params
+124.174   Total estimated model params size (MB)
+72        Modules in train mode
+0         Modules in eval mode
+SLURM auto-requeueing enabled. Setting signal handlers.
+Available GPUs: 1
+Epoch 0 val loss - 1.5041134357452393
+Epoch 0, global step 60: 'Val_Epoch_Loss' reached 1.12982 (best 1.12982), saving model to '/project/shah/shireesh/Personal_Projects/RetinalVesselSegmentation/checkpoints/best-checkpoint.ckpt' as top 1
+Epoch 0 val loss - 1.129817247390747
+Epoch 0 train loss - 1.190817952156067
+Epoch 1, global step 120: 'Val_Epoch_Loss' reached 0.92334 (best 0.92334), saving model to '/project/shah/shireesh/Personal_Projects/RetinalVesselSegmentation/checkpoints/best-checkpoint.ckpt' as top 1
+Epoch 1 val loss - 0.9233402609825134
+Epoch 1 train loss - 0.9822920560836792
+Epoch 2, global step 180: 'Val_Epoch_Loss' reached 0.85987 (best 0.85987), saving model to '/project/shah/shireesh/Personal_Projects/RetinalVesselSegmentation/checkpoints/best-checkpoint.ckpt' as top 1
+Epoch 2 val loss - 0.8598691821098328
+Epoch 2 train loss - 0.8811962008476257
+Epoch 3, global step 240: 'Val_Epoch_Loss' reached 0.79280 (best 0.79280), saving model to '/project/shah/shireesh/Personal_Projects/RetinalVesselSegmentation/checkpoints/best-checkpoint.ckpt' as top 1
+Epoch 3 val loss - 0.7927997708320618
+Epoch 3 train loss - 0.7994745373725891
+Epoch 4, global step 300: 'Val_Epoch_Loss' reached 0.71313 (best 0.71313), saving model to '/project/shah/shireesh/Personal_Projects/RetinalVesselSegmentation/checkpoints/best-checkpoint.ckpt' as top 1
+Epoch 4 val loss - 0.7131291031837463
+Epoch 4 train loss - 0.7325689792633057
+Epoch 5, global step 360: 'Val_Epoch_Loss' reached 0.65437 (best 0.65437), saving model to '/project/shah/shireesh/Personal_Projects/RetinalVesselSegmentation/checkpoints/best-checkpoint.ckpt' as top 1
+Epoch 5 val loss - 0.6543688178062439
+Epoch 5 train loss - 0.6732532382011414
+Epoch 6, global step 420: 'Val_Epoch_Loss' reached 0.60788 (best 0.60788), saving model to '/project/shah/shireesh/Personal_Projects/RetinalVesselSegmentation/checkpoints/best-checkpoint.ckpt' as top 1
+Epoch 6 val loss - 0.6078759431838989
+Epoch 6 train loss - 0.6199671030044556
+Epoch 7, global step 480: 'Val_Epoch_Loss' reached 0.56401 (best 0.56401), saving model to '/project/shah/shireesh/Personal_Projects/RetinalVesselSegmentation/checkpoints/best-checkpoint.ckpt' as top 1
+Epoch 7 val loss - 0.5640057325363159
+Epoch 7 train loss - 0.5684045553207397
+Epoch 8, global step 540: 'Val_Epoch_Loss' reached 0.51723 (best 0.51723), saving model to '/project/shah/shireesh/Personal_Projects/RetinalVesselSegmentation/checkpoints/best-checkpoint.ckpt' as top 1
+Epoch 8 val loss - 0.5172282457351685
+Epoch 8 train loss - 0.5237809419631958
+Epoch 9, global step 600: 'Val_Epoch_Loss' reached 0.48394 (best 0.48394), saving model to '/project/shah/shireesh/Personal_Projects/RetinalVesselSegmentation/checkpoints/best-checkpoint.ckpt' as top 1
+Epoch 9 val loss - 0.48393672704696655
+Epoch 9 train loss - 0.48288479447364807
+Epoch 10, global step 660: 'Val_Epoch_Loss' reached 0.44695 (best 0.44695), saving model to '/project/shah/shireesh/Personal_Projects/RetinalVesselSegmentation/checkpoints/best-checkpoint.ckpt' as top 1
+Epoch 10 val loss - 0.4469511806964874
+Epoch 10 train loss - 0.44409534335136414
+Epoch 11, global step 720: 'Val_Epoch_Loss' reached 0.42407 (best 0.42407), saving model to '/project/shah/shireesh/Personal_Projects/RetinalVesselSegmentation/checkpoints/best-checkpoint.ckpt' as top 1
+Epoch 11 val loss - 0.42407363653182983
+Epoch 11 train loss - 0.4096675515174866
+Epoch 12, global step 780: 'Val_Epoch_Loss' reached 0.39710 (best 0.39710), saving model to '/project/shah/shireesh/Personal_Projects/RetinalVesselSegmentation/checkpoints/best-checkpoint.ckpt' as top 1
+Epoch 12 val loss - 0.3971026539802551
+Epoch 12 train loss - 0.38139376044273376
+Epoch 13, global step 840: 'Val_Epoch_Loss' reached 0.37496 (best 0.37496), saving model to '/project/shah/shireesh/Personal_Projects/RetinalVesselSegmentation/checkpoints/best-checkpoint.ckpt' as top 1
+Epoch 13 val loss - 0.3749602735042572
+Epoch 13 train loss - 0.3526897430419922
+Epoch 14, global step 900: 'Val_Epoch_Loss' reached 0.35106 (best 0.35106), saving model to '/project/shah/shireesh/Personal_Projects/RetinalVesselSegmentation/checkpoints/best-checkpoint.ckpt' as top 1
+Epoch 14 val loss - 0.3510599434375763
+Epoch 14 train loss - 0.32830822467803955
+Epoch 15, global step 960: 'Val_Epoch_Loss' reached 0.33598 (best 0.33598), saving model to '/project/shah/shireesh/Personal_Projects/RetinalVesselSegmentation/checkpoints/best-checkpoint.ckpt' as top 1
+Epoch 15 val loss - 0.335980623960495
+Epoch 15 train loss - 0.3032723367214203
+Epoch 16, global step 1020: 'Val_Epoch_Loss' reached 0.32007 (best 0.32007), saving model to '/project/shah/shireesh/Personal_Projects/RetinalVesselSegmentation/checkpoints/best-checkpoint.ckpt' as top 1
+Epoch 16 val loss - 0.3200705945491791
+Epoch 16 train loss - 0.2824084758758545
+Epoch 17, global step 1080: 'Val_Epoch_Loss' reached 0.30400 (best 0.30400), saving model to '/project/shah/shireesh/Personal_Projects/RetinalVesselSegmentation/checkpoints/best-checkpoint.ckpt' as top 1
+Epoch 17 val loss - 0.30399924516677856
+Epoch 17 train loss - 0.2621677815914154
+Epoch 18, global step 1140: 'Val_Epoch_Loss' reached 0.29957 (best 0.29957), saving model to '/project/shah/shireesh/Personal_Projects/RetinalVesselSegmentation/checkpoints/best-checkpoint.ckpt' as top 1
+Epoch 18 val loss - 0.2995653450489044
+Epoch 18 train loss - 0.24488438665866852
+Epoch 19, global step 1200: 'Val_Epoch_Loss' reached 0.28365 (best 0.28365), saving model to '/project/shah/shireesh/Personal_Projects/RetinalVesselSegmentation/checkpoints/best-checkpoint.ckpt' as top 1
+Epoch 19 val loss - 0.2836472988128662
+Epoch 19 train loss - 0.2285967469215393
+Epoch 20, global step 1260: 'Val_Epoch_Loss' reached 0.27847 (best 0.27847), saving model to '/project/shah/shireesh/Personal_Projects/RetinalVesselSegmentation/checkpoints/best-checkpoint.ckpt' as top 1
+Epoch 20 val loss - 0.27846747636795044
+Epoch 20 train loss - 0.21536387503147125
+Epoch 21, global step 1320: 'Val_Epoch_Loss' reached 0.27121 (best 0.27121), saving model to '/project/shah/shireesh/Personal_Projects/RetinalVesselSegmentation/checkpoints/best-checkpoint.ckpt' as top 1
+Epoch 21 val loss - 0.2712131142616272
+Epoch 21 train loss - 0.20246514678001404
+Epoch 22, global step 1380: 'Val_Epoch_Loss' reached 0.26500 (best 0.26500), saving model to '/project/shah/shireesh/Personal_Projects/RetinalVesselSegmentation/checkpoints/best-checkpoint.ckpt' as top 1
+Epoch 22 val loss - 0.2649964690208435
+Epoch 22 train loss - 0.18627169728279114
+Epoch 23, global step 1440: 'Val_Epoch_Loss' reached 0.25979 (best 0.25979), saving model to '/project/shah/shireesh/Personal_Projects/RetinalVesselSegmentation/checkpoints/best-checkpoint.ckpt' as top 1
+Epoch 23 val loss - 0.25978657603263855
+Epoch 23 train loss - 0.17416806519031525
+Epoch 24, global step 1500: 'Val_Epoch_Loss' reached 0.25966 (best 0.25966), saving model to '/project/shah/shireesh/Personal_Projects/RetinalVesselSegmentation/checkpoints/best-checkpoint.ckpt' as top 1
+Epoch 24 val loss - 0.25966203212738037
+Epoch 24 train loss - 0.16789264976978302
+Epoch 25, global step 1560: 'Val_Epoch_Loss' reached 0.25286 (best 0.25286), saving model to '/project/shah/shireesh/Personal_Projects/RetinalVesselSegmentation/checkpoints/best-checkpoint.ckpt' as top 1
+Epoch 25 val loss - 0.2528556287288666
+Epoch 25 train loss - 0.15506713092327118
+Epoch 26, global step 1620: 'Val_Epoch_Loss' reached 0.25127 (best 0.25127), saving model to '/project/shah/shireesh/Personal_Projects/RetinalVesselSegmentation/checkpoints/best-checkpoint.ckpt' as top 1
+Epoch 26 val loss - 0.2512737214565277
+Epoch 26 train loss - 0.14696934819221497
+Epoch 27, global step 1680: 'Val_Epoch_Loss' reached 0.24444 (best 0.24444), saving model to '/project/shah/shireesh/Personal_Projects/RetinalVesselSegmentation/checkpoints/best-checkpoint.ckpt' as top 1
+Epoch 27 val loss - 0.2444448620080948
+Epoch 27 train loss - 0.13608795404434204
+Epoch 28, global step 1740: 'Val_Epoch_Loss' was not in top 1
+Epoch 28 val loss - 0.24764779210090637
+Epoch 28 train loss - 0.1288631558418274
+Epoch 29, global step 1800: 'Val_Epoch_Loss' reached 0.24397 (best 0.24397), saving model to '/project/shah/shireesh/Personal_Projects/RetinalVesselSegmentation/checkpoints/best-checkpoint.ckpt' as top 1
+`Trainer.fit` stopped: `max_epochs=30` reached.
+Epoch 29 val loss - 0.24397002160549164
+Epoch 29 train loss - 0.12173760682344437
+[1;34mwandb[0m: 
+[1;34mwandb[0m: 🚀 View run [33mmesmerizing-rose-6[0m at: [34mhttps://wandb.ai/shireesh98-university-of-houston/retinal_vessel_segmentation/runs/lfrqqs9y[0m

@@ -1,0 +1,8 @@
+pp/
+checkpoints/
+Dataset/
+__pycache__/
+lightning_logs/
+wandb/
+results/
+retinal_vessel_segmentation/
