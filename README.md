@@ -41,6 +41,6 @@ python test.py   # Evaluate the model
 ```
 
 <h5 style="font-size: 10px; color: #999;">Code Credits</h5>
-<small style="color: #ccc;">The UNet architecture used in this project is based on the following implementation:</small>  
-<small style="color: #bbb;">Code Credits: <a href="https://github.com/nikhilroxtomar/Retina-Blood-Vessel-Segmentation-in-PyTorch/tree/main" style="color: #bbb;">https://github.com/nikhilroxtomar/Retina-Blood-Vessel-Segmentation-in-PyTorch/tree/main</a></small>
+<h5 style="color: #ccc;">The UNet architecture used in this project is inspired from the following implementation:</h5>  
+<h5 style="color: #bbb;"><a href="https://github.com/nikhilroxtomar/Retina-Blood-Vessel-Segmentation-in-PyTorch/tree/main" style="color: #bbb;">https://github.com/nikhilroxtomar/Retina-Blood-Vessel-Segmentation-in-PyTorch/tree/main</a></h5>
 
