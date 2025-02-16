@@ -18,7 +18,7 @@ Additionally, the following are combined samples showing the original image, gro
 2. **Sample 2:** Another example with the original image, ground truth mask, and predicted segmentation mask.  
    ![Results Triplet 2](results/192_N.png)
 
-   
+
 ## Model Performance
 
 The model achieves the following performance metrics:
@@ -38,8 +38,9 @@ For local training and evaluation, you can run:
 ```bash
 python train.py  # Train the model
 python test.py   # Evaluate the model
+```
 
-## Code Credits
+<h2 style="font-size: 14px;">Code Credits</h2>
 
-The UNet architecture used in this project is based on the following implementation:  
-Code Credits: https://github.com/nikhilroxtomar/Retina-Blood-Vessel-Segmentation-in-PyTorch/tree/main
+<small>The UNet architecture used in this project is based on the following implementation:</small>  
+<small>Code Credits: <a href="https://github.com/nikhilroxtomar/Retina-Blood-Vessel-Segmentation-in-PyTorch/tree/main">https://github.com/nikhilroxtomar/Retina-Blood-Vessel-Segmentation-in-PyTorch/tree/main</a></small>
