@@ -40,12 +40,13 @@ python train.py  # Train the model
 python test.py   # Evaluate the model
 ```
 
+## Logger Integration with PyTorch Lightning
+
+We use **Weights & Biases (WandB)** for logging and tracking the training and evaluation metrics in our PyTorch Lightning experiments. WandB provides a comprehensive suite for experiment tracking, model versioning, and visualizing training progress.
 
 
 
 
 
-
-
-<h5 style="font-size: 7px; color: #999;">Acknowledgment - The UNet architecture used in this project briefly inspired from the following implementation: https://github.com/nikhilroxtomar/Retina-Blood-Vessel-Segmentation-in-PyTorch/tree/main</h6>  
+<h6 style="font-size: 7px; color: #999;">Acknowledgment: The UNet architecture used in this project is briefly inspired by the work of author https://github.com/nikhilroxtomar. </h6>  
 
